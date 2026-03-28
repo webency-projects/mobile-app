@@ -1,4 +1,11 @@
-export const baseLight = {
+const staticColor = {
+  black: '#141414',
+  white: '#ffffff',
+};
+
+// ==================== БАЗОВЫЕ ТОКЕНЫ ====================
+
+const baseLight = {
   primary: '#6852D6',
   primary50: '#F9F8FD',
   primary100: '#EDEAFA',
@@ -10,6 +17,7 @@ export const baseLight = {
   primary700: '#8978DF',
   primary800: '#7965DB',
   primary900: '#5D49BE',
+
   neutral50: '#FFFFFF',
   neutral100: '#FAFAFA',
   neutral200: '#F5F5F5',
@@ -20,8 +28,10 @@ export const baseLight = {
   neutral700: '#5B5B5B',
   neutral800: '#434343',
   neutral900: '#141414',
+
   info: '#0B7BEA',
   warning: '#FFAB00',
+
   success1: '#09C26F',
   success2: '#079B59',
   success3: '#3ACE8C',
@@ -32,7 +42,7 @@ export const baseLight = {
   error3: '#F66B6D',
 };
 
-export const baseDark = {
+const baseDark = {
   primary: '#6852D6',
   primary50: '#15102B',
   primary100: '#1D173C',
@@ -44,6 +54,7 @@ export const baseDark = {
   primary700: '#4F3EA3',
   primary800: '#5745B4',
   primary900: '#7460D9',
+
   neutral50: '#141414',
   neutral100: '#1A1A1A',
   neutral200: '#272727',
@@ -54,82 +65,148 @@ export const baseDark = {
   neutral700: '#A8A8A8',
   neutral800: '#C8C8C8',
   neutral900: '#FFFFFF',
+
   info: '#0D66BF',
   warning: '#D08D04',
+
   success1: '#0B9F5D',
   success2: '#097F4A',
   success3: '#3CB27D',
   success4: '#56E8A7',
+
   error1: '#C73C3E',
   error2: '#9F3032',
   error3: '#D26365',
 };
 
-const staticColor = {
-  black: '#141414',
-  white: '#ffffff',
-};
+// ==================== СЕМАНТИЧЕСКИЕ ТОКЕНЫ ====================
 
 const backgroundLight = {
-  bg01: baseLight.neutral50,
-  bg02: baseLight.neutral100,
-  bg03: baseLight.neutral200,
-  bg04: baseLight.neutral300,
+  background01: baseLight.neutral50,
+  background02: baseLight.neutral100,
+  background03: baseLight.neutral200,
+  background04: baseLight.neutral300,
 };
 
 const backgroundDark = {
-  bg01: baseDark.neutral50,
-  bg02: baseDark.neutral100,
-  bg03: baseDark.neutral200,
-  bg04: baseDark.neutral300,
+  background01: baseDark.neutral50,
+  background02: baseDark.neutral100,
+  background03: baseDark.neutral200,
+  background04: baseDark.neutral300,
 };
 
 const borderLight = {
-  light: baseLight.neutral200,
-  default: baseLight.neutral300,
-  dark: baseLight.neutral400,
-  highlight: baseLight.primary,
+  borderLight: baseLight.neutral200,
+  borderDefault: baseLight.neutral300,
+  borderDark: baseLight.neutral400,
+  borderHighlight: baseLight.primary,
 };
 
 const borderDark = {
-  light: baseDark.neutral200,
-  default: baseDark.neutral300,
-  dark: baseDark.neutral400,
-  highlight: baseDark.primary,
+  borderLight: baseDark.neutral200,
+  borderDefault: baseDark.neutral300,
+  borderDark: baseDark.neutral400,
+  borderHighlight: baseDark.primary,
 };
 
 const textLight = {
-  primary: baseLight.neutral900,
-  secondary: baseLight.neutral600,
-  tertiary: baseLight.neutral500,
-  disabled: baseLight.neutral400,
-  white: baseLight.neutral50,
-  highlight: baseLight.primary,
+  textPrimary: baseLight.neutral900,
+  textSecondary: baseLight.neutral600,
+  textTertiary: baseLight.neutral500,
+  textDisabled: baseLight.neutral400,
+  textWhite: baseLight.neutral50,
+  textHighlight: baseLight.primary,
 }
 
 const textDark = {
-  primary: baseDark.neutral900,
-  secondary: baseDark.neutral600,
-  tertiary: baseDark.neutral500,
-  disabled: baseDark.neutral400,
-  white: baseDark.neutral50,
-  highlight: baseDark.primary,
+  textPrimary: baseDark.neutral900,
+  textSecondary: baseDark.neutral600,
+  textTertiary: baseDark.neutral500,
+  textDisabled: baseDark.neutral400,
+  textWhite: baseDark.neutral50,
+  textHighlight: baseDark.primary,
 };
 
 const iconLight = {
-  primary: baseLight.neutral900,
-  secondary: baseLight.neutral500,
-  tertiary: baseLight.neutral400,
-  white: baseLight.neutral50,
-  highlight: baseLight.primary,
+  iconPrimary: baseLight.neutral900,
+  iconSecondary: baseLight.neutral500,
+  iconTertiary: baseLight.neutral400,
+  iconWhite: baseLight.neutral50,
+  iconHighlight: baseLight.primary,
 };
 
 const iconDark = {
-  primary: baseLight.neutral900,
-  secondary: baseLight.neutral500,
-  tertiary: baseLight.neutral400,
-  white: baseLight.neutral50,
-  highlight: baseLight.primary,
+  iconPrimary: baseDark.neutral900,
+  iconSecondary: baseDark.neutral500,
+  iconTertiary: baseDark.neutral400,
+  iconWhite: baseDark.neutral50,
+  iconHighlight: baseDark.primary,
 };
+
+
+const buttonLight = {
+  buttonPrimaryBg: baseLight.primary,
+  buttonPrimaryIcon: staticColor.white,
+  buttonPrimaryText: staticColor.white,
+  buttonSecondaryBg: baseLight.neutral900,
+  buttonSecondaryIcon: baseLight.neutral900,
+  buttonSecondaryText: baseLight.neutral900,
+  buttonLink: baseLight.info,
+  buttonFabBg: baseLight.primary,
+  buttonFabIcon: staticColor.white,
+}
+
+const buttonDark = {
+  buttonPrimaryBg: baseDark.primary,
+  buttonPrimaryIcon: staticColor.white,
+  buttonPrimaryText: staticColor.white,
+  buttonSecondaryBg: baseDark.neutral900,
+  buttonSecondaryIcon: baseDark.neutral900,
+  buttonSecondaryText: baseDark.neutral900,
+  buttonLink: baseDark.info,
+  buttonFabBg: baseDark.primary,
+  buttonFabIcon: staticColor.white,
+}
+
+const stateLight = {
+  stateHover: baseLight.neutral100,
+  statePressed: baseLight.neutral300,
+}
+
+const stateDark = {
+  stateHover: baseDark.neutral100,
+  statePressed: baseDark.neutral300,
+}
+
+const overlayLight = {
+  overlayHover: baseLight.neutral100,
+}
+
+const overlayDark = {
+  overlayHover: baseDark.neutral100,
+}
+
+export const themeColors = {
+  light: {
+    ...baseLight,
+    ...backgroundLight,
+    ...borderLight,
+    ...textLight,
+    ...iconLight,
+    ...buttonLight,
+    ...stateLight,
+    ...overlayLight,
+  },
+  dark: {
+    ...baseDark,
+    ...backgroundDark,
+    ...borderDark,
+    ...textDark,
+    ...iconDark,
+    ...buttonDark,
+    ...stateDark,
+    ...overlayDark,
+  }
+} as const;
 
 
