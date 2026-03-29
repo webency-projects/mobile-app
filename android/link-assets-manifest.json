@@ -1,0 +1,1125 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/icons/base/add_a_photo.no.svg",
+      "sha1": "3d157b66769ef2c0f81b6fd89bfbe4b1f25d316a"
+    },
+    {
+      "path": "src/assets/icons/base/add_a_photo.yes.svg",
+      "sha1": "89e2832e6de8dfc97ca3ca66690b3405840af7d2"
+    },
+    {
+      "path": "src/assets/icons/base/add_reaction.no.svg",
+      "sha1": "798a66bcef2cbe07c18882f753b7597d4945e6cf"
+    },
+    {
+      "path": "src/assets/icons/base/add_reaction.yes.svg",
+      "sha1": "6eaa3a4b058bd27431df035a719e1606c0f9d8d6"
+    },
+    {
+      "path": "src/assets/icons/base/ai_conversation_summary.no.svg",
+      "sha1": "d3f52ed245b0786af1fc18c51683ff6115d1efa6"
+    },
+    {
+      "path": "src/assets/icons/base/ai_conversation_summary.yes.svg",
+      "sha1": "aac4e09fd5eeeb1fefffc4bacfbc90099d7e0230"
+    },
+    {
+      "path": "src/assets/icons/base/ai_suggest_reply.no.svg",
+      "sha1": "fa20d0112b6beadcf09b595000fad8ac73f4b526"
+    },
+    {
+      "path": "src/assets/icons/base/ai_suggest_reply.yes.svg",
+      "sha1": "d228a505fc7d29688726e828002921f991a043b5"
+    },
+    {
+      "path": "src/assets/icons/base/ai.no.svg",
+      "sha1": "03af83b714f80f5e1edda0ef42145140974e920c"
+    },
+    {
+      "path": "src/assets/icons/base/ai.yes.svg",
+      "sha1": "2b704ae371c8b035725fc10dd47534134dda8d0c"
+    },
+    {
+      "path": "src/assets/icons/base/alternate_email.no.svg",
+      "sha1": "4c0796c054f5ad1aece771cce7f32d114bc5ea02"
+    },
+    {
+      "path": "src/assets/icons/base/alternate_email.yes.svg",
+      "sha1": "ca52b6c1953153257636e2279f397907920052da"
+    },
+    {
+      "path": "src/assets/icons/base/archive.no.svg",
+      "sha1": "704b70acb516ddde5e3def8884900777a6a006c7"
+    },
+    {
+      "path": "src/assets/icons/base/archive.yes.svg",
+      "sha1": "25e62aeeadb847e262cb84dfaa5d518fa45d26d6"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.clockwise.no.svg",
+      "sha1": "d45251cf1ca3d17dd35912eb5a82d915002d2a78"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.clockwise.yes.svg",
+      "sha1": "d45251cf1ca3d17dd35912eb5a82d915002d2a78"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.down.circle.no.svg",
+      "sha1": "b4d1d4976914e08acbfd9ae3db61defc0f9e4933"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.down.circle.yes.svg",
+      "sha1": "e0f01409e027b88ff54bc0ed454c3c3e3e7e7c08"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.down.left.video.no.svg",
+      "sha1": "d6d6c706282946aa1c72538f05e383352ee5525a"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.down.left.video.yes.svg",
+      "sha1": "b9ebc455148c0c393f8eb3af58a57c44fb372d2d"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.left.no.svg",
+      "sha1": "1e2b12b50b8d84160eb683978842ffc05da351cf"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.left.yes.svg",
+      "sha1": "1e2b12b50b8d84160eb683978842ffc05da351cf"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.right.no.svg",
+      "sha1": "d75e04b13e082a09852bac7c11de2518f2be1399"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.right.yes.svg",
+      "sha1": "d75e04b13e082a09852bac7c11de2518f2be1399"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.trianglehead.2.clockwise.rotate.90.camera.no.svg",
+      "sha1": "56e5d5316733d654d095507a3cc509cc6caabd60"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.trianglehead.2.clockwise.rotate.90.camera.yes.svg",
+      "sha1": "e08dfa611ebab20e098bdd3a8a9da0d24ea8b42b"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.trianglehead.2.clockwise.rotate.90.circle.no.svg",
+      "sha1": "08c4eed7b28168345bee0ce36736104a7b01cca1"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.trianglehead.2.clockwise.rotate.90.circle.no(1).svg",
+      "sha1": "e7f3993800f7e3df3bcd00b3a843832fe8ed9845"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.trianglehead.2.clockwise.rotate.90.circle.yes.svg",
+      "sha1": "cd5fd9e6e4abb09a9f18de216bc25d02922ba709"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.trianglehead.2.clockwise.rotate.90.circle.yes(1).svg",
+      "sha1": "8d15cfeede4860e4e1b77a0642f4d13b87b14d34"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.trianglehead.2.clockwise.rotate.90.no.svg",
+      "sha1": "b133c19e150e15e04c0140da273b27442c5b5601"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.trianglehead.2.clockwise.rotate.90.yes.svg",
+      "sha1": "b133c19e150e15e04c0140da273b27442c5b5601"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.turn.down.left.no.svg",
+      "sha1": "80c7a99e31589a49a3c157f666b566437d2121b9"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.turn.down.left.yes.svg",
+      "sha1": "80c7a99e31589a49a3c157f666b566437d2121b9"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.turn.down.right.no.svg",
+      "sha1": "75611f23a244a6f95c01b78f916f8de3eb05f549"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.turn.down.right.yes.svg",
+      "sha1": "75611f23a244a6f95c01b78f916f8de3eb05f549"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.up.circle.no.svg",
+      "sha1": "ea5daf09ec6d2a152383da98f0ae509b458ab45e"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.up.circle.yes.svg",
+      "sha1": "4ea5aed541afb142d4354f502c9362da1052fc74"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.up.right.video.no.svg",
+      "sha1": "13f6097358ee81a75f40824a145c7ae4f7d8e15d"
+    },
+    {
+      "path": "src/assets/icons/base/arrow.up.right.video.yes.svg",
+      "sha1": "18697b60439d47d377a14e1130683e87bcbfb05f"
+    },
+    {
+      "path": "src/assets/icons/base/arrowshape.turn.up.forward.no.svg",
+      "sha1": "213c00f6f626801b0848774c5bf5be00c4f09b7d"
+    },
+    {
+      "path": "src/assets/icons/base/arrowshape.turn.up.forward.yes.svg",
+      "sha1": "28f6669ff17034cc2b878ed932e3c99be552a652"
+    },
+    {
+      "path": "src/assets/icons/base/arrowshape.turn.up.left.2.no.svg",
+      "sha1": "9d37949bfd60d2ebe6ae87b8f957a5905af54e0e"
+    },
+    {
+      "path": "src/assets/icons/base/arrowshape.turn.up.left.2.yes.svg",
+      "sha1": "d325bcc7cb227563eb189558cab5ccc9cdaa0457"
+    },
+    {
+      "path": "src/assets/icons/base/arrowshape.turn.up.left.no.svg",
+      "sha1": "139242d40174b7f31ff92443b5804a3786eb394b"
+    },
+    {
+      "path": "src/assets/icons/base/arrowshape.turn.up.left.yes.svg",
+      "sha1": "a4ecec3ece36de8c21ddcd60a0a1744c8132bead"
+    },
+    {
+      "path": "src/assets/icons/base/bell.no.svg",
+      "sha1": "67cab7162ce6d0da7ef12a4041e61eddae9092f7"
+    },
+    {
+      "path": "src/assets/icons/base/bell.slash.no.svg",
+      "sha1": "f4e8ef5b79d574612cc085ef728d9d125e35c19e"
+    },
+    {
+      "path": "src/assets/icons/base/bell.slash.yes.svg",
+      "sha1": "8830efec8b0d09e5a5db6e035b1d2e8b15ea2cf9"
+    },
+    {
+      "path": "src/assets/icons/base/bell.yes.svg",
+      "sha1": "b450bfd9b8fe0762bd3e28ee3ae2d706faa1a739"
+    },
+    {
+      "path": "src/assets/icons/base/block.no.svg",
+      "sha1": "41bdb927251fb8d9d2fd0687c4541908922f3fe7"
+    },
+    {
+      "path": "src/assets/icons/base/block.yes.svg",
+      "sha1": "41bdb927251fb8d9d2fd0687c4541908922f3fe7"
+    },
+    {
+      "path": "src/assets/icons/base/bookmark.circle.no.svg",
+      "sha1": "db412c2a417cf9e96ff1cf14c05005c85c7fad4b"
+    },
+    {
+      "path": "src/assets/icons/base/bookmark.circle.yes.svg",
+      "sha1": "5f04c4ac8ca406ebd8616c2d6b5ca25379af5a3d"
+    },
+    {
+      "path": "src/assets/icons/base/bookmark.no.svg",
+      "sha1": "03f576fba15ce52be8c2fc0f90a5e2e12dccc655"
+    },
+    {
+      "path": "src/assets/icons/base/bookmark.yes.svg",
+      "sha1": "b4b1f8af8aa1e3b31218e199322aecd960b6851c"
+    },
+    {
+      "path": "src/assets/icons/base/calendar.badge.checkmark.no.svg",
+      "sha1": "19dff32f60258052a57ec863d16480905a904000"
+    },
+    {
+      "path": "src/assets/icons/base/calendar.badge.checkmark.yes.svg",
+      "sha1": "19dff32f60258052a57ec863d16480905a904000"
+    },
+    {
+      "path": "src/assets/icons/base/calendar.badge.clock.no.svg",
+      "sha1": "a4b0cf5ab08b6a39938512ee0c139b40d957584c"
+    },
+    {
+      "path": "src/assets/icons/base/calendar.badge.clock.yes.svg",
+      "sha1": "a4b0cf5ab08b6a39938512ee0c139b40d957584c"
+    },
+    {
+      "path": "src/assets/icons/base/calendar.badge.plus.no.svg",
+      "sha1": "79a979e98c8c484c8bb0324bab171354976d1881"
+    },
+    {
+      "path": "src/assets/icons/base/calendar.badge.plus.yes.svg",
+      "sha1": "79a979e98c8c484c8bb0324bab171354976d1881"
+    },
+    {
+      "path": "src/assets/icons/base/calendar.no.svg",
+      "sha1": "f2e1ca0e42648a1064420b3f5e8520ea9702e1cf"
+    },
+    {
+      "path": "src/assets/icons/base/calendar.yes.svg",
+      "sha1": "f2e1ca0e42648a1064420b3f5e8520ea9702e1cf"
+    },
+    {
+      "path": "src/assets/icons/base/camera.no.svg",
+      "sha1": "9033852dcc1857ac6a76c6fa6d1c9b7607fafddc"
+    },
+    {
+      "path": "src/assets/icons/base/camera.yes.svg",
+      "sha1": "c4f9f3c8bb83c408eb2b3b0da320b20ca87c0964"
+    },
+    {
+      "path": "src/assets/icons/base/chart.bar.no.svg",
+      "sha1": "b120ee343d1420bf7b489238346f9cbb19365aa8"
+    },
+    {
+      "path": "src/assets/icons/base/chart.bar.yes.svg",
+      "sha1": "5e2fcfe534cdab78e92e4af144cf96401e5310a5"
+    },
+    {
+      "path": "src/assets/icons/base/chat_bot.no.svg",
+      "sha1": "1a273e7dc49c91083e63da29391e255f813ee9bc"
+    },
+    {
+      "path": "src/assets/icons/base/chat_bot.yes.svg",
+      "sha1": "258d26e928be3a24f1495cae197d1958804c8989"
+    },
+    {
+      "path": "src/assets/icons/base/checkmark.circle.no.svg",
+      "sha1": "5b1e072c3e6a017d779afbe5d4db3f3158c7ff6c"
+    },
+    {
+      "path": "src/assets/icons/base/checkmark.circle.yes.svg",
+      "sha1": "54bb34dc616a4f9a544033621d40f41fbce21c51"
+    },
+    {
+      "path": "src/assets/icons/base/checkmark.no.svg",
+      "sha1": "d5c3fc387d3e252ecaed1e9c806060b3df1a62d3"
+    },
+    {
+      "path": "src/assets/icons/base/checkmark.yes.svg",
+      "sha1": "d5c3fc387d3e252ecaed1e9c806060b3df1a62d3"
+    },
+    {
+      "path": "src/assets/icons/base/chevron.down.no.svg",
+      "sha1": "c6b3c44271fa6fc9ad42ad89585a774ccc10fd17"
+    },
+    {
+      "path": "src/assets/icons/base/chevron.down.yes.svg",
+      "sha1": "c6b3c44271fa6fc9ad42ad89585a774ccc10fd17"
+    },
+    {
+      "path": "src/assets/icons/base/chevron.left.no.svg",
+      "sha1": "50b878023fb0ef0547ffbab8c811e869b36722ec"
+    },
+    {
+      "path": "src/assets/icons/base/chevron.left.yes.svg",
+      "sha1": "50b878023fb0ef0547ffbab8c811e869b36722ec"
+    },
+    {
+      "path": "src/assets/icons/base/chevron.right.no.svg",
+      "sha1": "a759f138f93dab5951f0462ae4ffb451e944d552"
+    },
+    {
+      "path": "src/assets/icons/base/chevron.right.yes.svg",
+      "sha1": "a759f138f93dab5951f0462ae4ffb451e944d552"
+    },
+    {
+      "path": "src/assets/icons/base/chevron.up.no.svg",
+      "sha1": "e472fb258db776a7aa47f75d5d6243e809d13a25"
+    },
+    {
+      "path": "src/assets/icons/base/chevron.up.yes.svg",
+      "sha1": "e472fb258db776a7aa47f75d5d6243e809d13a25"
+    },
+    {
+      "path": "src/assets/icons/base/clock.arrow.circlepath.no.svg",
+      "sha1": "d7d2449f3d883c18a92afbfdfc34791cf77b88a2"
+    },
+    {
+      "path": "src/assets/icons/base/clock.arrow.circlepath.yes.svg",
+      "sha1": "d7d2449f3d883c18a92afbfdfc34791cf77b88a2"
+    },
+    {
+      "path": "src/assets/icons/base/clock.no.svg",
+      "sha1": "05f0528203e2b0aa6618c2d9421517e29285151d"
+    },
+    {
+      "path": "src/assets/icons/base/clock.yes.svg",
+      "sha1": "5f0b3dc6d0ae350af970c6ba94dd20874e579a2f"
+    },
+    {
+      "path": "src/assets/icons/base/collaborative_document.no.svg",
+      "sha1": "96dcc9c05d8a39cdf0a7f9c4b091e2ca7ff1feba"
+    },
+    {
+      "path": "src/assets/icons/base/collaborative_document.yes.svg",
+      "sha1": "630ff5c1f82c909d79961d65b83c3701c28e398b"
+    },
+    {
+      "path": "src/assets/icons/base/collaborative_whiteboard.no.svg",
+      "sha1": "b761ebffde1870dc5adcbb872284b76fdeb9fdd2"
+    },
+    {
+      "path": "src/assets/icons/base/collaborative_whiteboard.yes.svg",
+      "sha1": "1e67bccaaeb32c1dc5bdf5d4ac01681d3ba6381b"
+    },
+    {
+      "path": "src/assets/icons/base/crop.no.svg",
+      "sha1": "b3fc571479c30c0c23d16a419ef01a92ee1b1ead"
+    },
+    {
+      "path": "src/assets/icons/base/crop.yes.svg",
+      "sha1": "d3a3ba9a1984d702427a14d396ccc33f5e28a896"
+    },
+    {
+      "path": "src/assets/icons/base/document.on.document.no.svg",
+      "sha1": "4173f697acb98b13cc01eaef4e008cb3af5be28f"
+    },
+    {
+      "path": "src/assets/icons/base/document.on.document.yes.svg",
+      "sha1": "7e246c479f6a622a95fc6415ec13fef656e5bb8e"
+    },
+    {
+      "path": "src/assets/icons/base/done_all.no.svg",
+      "sha1": "6cdca3b5f10ca4972250d908dce2926557e8f07d"
+    },
+    {
+      "path": "src/assets/icons/base/done_all.yes.svg",
+      "sha1": "a1ab0a09c46c4dc0ef3efbaebf6e8d714cb0cdf1"
+    },
+    {
+      "path": "src/assets/icons/base/done.no.svg",
+      "sha1": "47788635ed9a6a74980a0c7b6c14970622691864"
+    },
+    {
+      "path": "src/assets/icons/base/done.yes.svg",
+      "sha1": "7671bad8c1c55440910c1d8e2d636702f20b7472"
+    },
+    {
+      "path": "src/assets/icons/base/edit_calendar.no.svg",
+      "sha1": "a4b0cf5ab08b6a39938512ee0c139b40d957584c"
+    },
+    {
+      "path": "src/assets/icons/base/edit_calendar.yes.svg",
+      "sha1": "a4b0cf5ab08b6a39938512ee0c139b40d957584c"
+    },
+    {
+      "path": "src/assets/icons/base/ellipsis.no.svg",
+      "sha1": "31abf5a81167ae3451ea5c35cc63e8233621ec97"
+    },
+    {
+      "path": "src/assets/icons/base/ellipsis.yes.svg",
+      "sha1": "31abf5a81167ae3451ea5c35cc63e8233621ec97"
+    },
+    {
+      "path": "src/assets/icons/base/envelope.no.svg",
+      "sha1": "df7f0beedaabcc7b673c4b343b9f90f3fd56c8af"
+    },
+    {
+      "path": "src/assets/icons/base/envelope.yes.svg",
+      "sha1": "b3c2e2548f731f980e6d78dadbbe28d93889830f"
+    },
+    {
+      "path": "src/assets/icons/base/exclamationmark.circle.no.svg",
+      "sha1": "2ea6043c3d5314c93aa3ae67ff62c942e43cd5bb"
+    },
+    {
+      "path": "src/assets/icons/base/exclamationmark.circle.yes.svg",
+      "sha1": "48cb11600c151b1b055df8706779e2fb42598245"
+    },
+    {
+      "path": "src/assets/icons/base/exclamationmark.triangle.no.svg",
+      "sha1": "c07ebb4e000cb2dd87f55ef296d8dc9695e7e457"
+    },
+    {
+      "path": "src/assets/icons/base/exclamationmark.triangle.yes.svg",
+      "sha1": "cfd270e01a97b8ad9cd1a34c6a8ee623952e7e06"
+    },
+    {
+      "path": "src/assets/icons/base/eye.no.svg",
+      "sha1": "dea0621db1aa20e03dca642341338149cc74866b"
+    },
+    {
+      "path": "src/assets/icons/base/eye.slash.no.svg",
+      "sha1": "d31ba9e346d669c64d8b2372ff5a401535914855"
+    },
+    {
+      "path": "src/assets/icons/base/eye.slash.yes.svg",
+      "sha1": "97e1746f9a56b96076dcf13aea88afd79859741a"
+    },
+    {
+      "path": "src/assets/icons/base/eye.yes.svg",
+      "sha1": "f72fcfeefe6145f80f7612f4abb701b3d8ba99ef"
+    },
+    {
+      "path": "src/assets/icons/base/face.smiling.no.svg",
+      "sha1": "4e7f0e0f35f7a486525ccae9a9dd82a1aa01746d"
+    },
+    {
+      "path": "src/assets/icons/base/face.smiling.yes.svg",
+      "sha1": "3f07b02ce0873498e8464ffda1d0a5039ad5ee7d"
+    },
+    {
+      "path": "src/assets/icons/base/gearshape.no.svg",
+      "sha1": "8aaa18c0c3bb4a234cce74a5f5ecb317feca7242"
+    },
+    {
+      "path": "src/assets/icons/base/gearshape.yes.svg",
+      "sha1": "5a4a2f6020043cdf7191eae9e2e642e72e9e30dc"
+    },
+    {
+      "path": "src/assets/icons/base/gif.no.svg",
+      "sha1": "ae6d9bdfcfa511f59a472f2220a3d6963f430915"
+    },
+    {
+      "path": "src/assets/icons/base/gif.yes.svg",
+      "sha1": "328fc06e07e5d6d06c0232242f42113b196bce15"
+    },
+    {
+      "path": "src/assets/icons/base/globe.no.svg",
+      "sha1": "0e35b5f7bc86eaef75a9d7b62de6135d46b939c4"
+    },
+    {
+      "path": "src/assets/icons/base/globe.yes.svg",
+      "sha1": "0e35b5f7bc86eaef75a9d7b62de6135d46b939c4"
+    },
+    {
+      "path": "src/assets/icons/base/hand.thumbsdown.no.svg",
+      "sha1": "3e6c0acd86a054c10d43e286f703b280f385bcb5"
+    },
+    {
+      "path": "src/assets/icons/base/hand.thumbsdown.yes.svg",
+      "sha1": "e253e458dd7f554292ff83e900fa4ad7339c5460"
+    },
+    {
+      "path": "src/assets/icons/base/hand.thumbsup.no.svg",
+      "sha1": "f4a9e26b8eebaf518ae909329538d196520bca64"
+    },
+    {
+      "path": "src/assets/icons/base/hand.thumbsup.yes.svg",
+      "sha1": "df46f22dc9ff52d889ee493a8352fd171f0e1318"
+    },
+    {
+      "path": "src/assets/icons/base/heart.no.svg",
+      "sha1": "0dc0efac7015620ebbd222a4a4f24857e4428bb7"
+    },
+    {
+      "path": "src/assets/icons/base/heart.yes.svg",
+      "sha1": "a5605a4da63562a911e3970b2bec6221e3713e59"
+    },
+    {
+      "path": "src/assets/icons/base/info.circle.no.svg",
+      "sha1": "99b4a6f18b5d62ad914d3f0788113fbef4073316"
+    },
+    {
+      "path": "src/assets/icons/base/info.circle.yes.svg",
+      "sha1": "0b414540651f88f89664a6204be5098483e8570f"
+    },
+    {
+      "path": "src/assets/icons/base/keyboard.no.svg",
+      "sha1": "a41e9ea2c5c929bc01143409bf695756ec66f1f1"
+    },
+    {
+      "path": "src/assets/icons/base/keyboard.yes.svg",
+      "sha1": "7899b3e92837332a6b158a02cf61d54b6fa260b1"
+    },
+    {
+      "path": "src/assets/icons/base/line.3.horizontal.decrease.circle.no.svg",
+      "sha1": "3d9f94a4f0af2a47ca35ef46da45f5f2e2768ac3"
+    },
+    {
+      "path": "src/assets/icons/base/line.3.horizontal.decrease.circle.yes.svg",
+      "sha1": "7c35c2e652f81f84245b2dfa36257cf9b36ac1e3"
+    },
+    {
+      "path": "src/assets/icons/base/line.3.horizontal.decrease.no.svg",
+      "sha1": "925c34c18480cf086ff8b0da382191c9c5abf736"
+    },
+    {
+      "path": "src/assets/icons/base/line.3.horizontal.decrease.yes.svg",
+      "sha1": "925c34c18480cf086ff8b0da382191c9c5abf736"
+    },
+    {
+      "path": "src/assets/icons/base/link.no.svg",
+      "sha1": "92a717ae1668a5b52d054920c003130b59071f82"
+    },
+    {
+      "path": "src/assets/icons/base/link.yes.svg",
+      "sha1": "92a717ae1668a5b52d054920c003130b59071f82"
+    },
+    {
+      "path": "src/assets/icons/base/loading.no.svg",
+      "sha1": "70213be557d367bf28c21ce34ab2e50ccbdcdf90"
+    },
+    {
+      "path": "src/assets/icons/base/loading.yes.svg",
+      "sha1": "4cef9bd26a2a9cd2a33dadcb2aeddcf9d4294028"
+    },
+    {
+      "path": "src/assets/icons/base/location.no.svg",
+      "sha1": "d2c89b1b52bb657f15494addd2fe6b67c5cadd9d"
+    },
+    {
+      "path": "src/assets/icons/base/location.north.no.svg",
+      "sha1": "9f117b75d40ec194602f2457fa62d761d2066fe4"
+    },
+    {
+      "path": "src/assets/icons/base/location.north.yes.svg",
+      "sha1": "723598d1f008c511db0eb3940832f71bd2eaa472"
+    },
+    {
+      "path": "src/assets/icons/base/location.yes.svg",
+      "sha1": "b909790eb732afcc44c8d99673da872197b441d3"
+    },
+    {
+      "path": "src/assets/icons/base/lock.no.svg",
+      "sha1": "eda465ae8488e02e4e61b67f52a68ecdbcd18886"
+    },
+    {
+      "path": "src/assets/icons/base/lock.open.no.svg",
+      "sha1": "dc094085697604cdfdd5ec45819c10f43d312cc0"
+    },
+    {
+      "path": "src/assets/icons/base/lock.open.yes.svg",
+      "sha1": "dc6bc2d9eb3aae61df525f8d294406f7eadc9005"
+    },
+    {
+      "path": "src/assets/icons/base/lock.yes.svg",
+      "sha1": "892273515c022f0fa2cb20be2e4f52f30bd10853"
+    },
+    {
+      "path": "src/assets/icons/base/magnifyingglass.no.svg",
+      "sha1": "761112a9b38b3e8c55812788a4eb87bc76994b2d"
+    },
+    {
+      "path": "src/assets/icons/base/magnifyingglass.yes.svg",
+      "sha1": "761112a9b38b3e8c55812788a4eb87bc76994b2d"
+    },
+    {
+      "path": "src/assets/icons/base/microphone.no.svg",
+      "sha1": "80f73ff1c10f65807c9e29361842c9d35a7307cb"
+    },
+    {
+      "path": "src/assets/icons/base/microphone.slash.no.svg",
+      "sha1": "e4f38b45e071eb551fb367af3536d30a5eaa96c6"
+    },
+    {
+      "path": "src/assets/icons/base/microphone.slash.yes.svg",
+      "sha1": "28a5879a4b7500dd06363bcd1be3013c5389e848"
+    },
+    {
+      "path": "src/assets/icons/base/microphone.yes.svg",
+      "sha1": "dceda5886667242f3888848e27e981175a848fb8"
+    },
+    {
+      "path": "src/assets/icons/base/moon.no.svg",
+      "sha1": "70a01f1462b262d78537bd6d0318ab67bef56e50"
+    },
+    {
+      "path": "src/assets/icons/base/moon.yes.svg",
+      "sha1": "6e5635fe9da93031c03564b6912a1474216d2146"
+    },
+    {
+      "path": "src/assets/icons/base/no_photography.no.svg",
+      "sha1": "431f0c7b2370d6ebf25e36e7c0f54abe24dd4aeb"
+    },
+    {
+      "path": "src/assets/icons/base/no_photography.yes.svg",
+      "sha1": "071692c2378197b29c3b47fe169187ce3c517abe"
+    },
+    {
+      "path": "src/assets/icons/base/paperclip.no.svg",
+      "sha1": "0f17ef57ee70f90cbb376bfe36b7937b2a44d676"
+    },
+    {
+      "path": "src/assets/icons/base/paperclip.yes.svg",
+      "sha1": "0f17ef57ee70f90cbb376bfe36b7937b2a44d676"
+    },
+    {
+      "path": "src/assets/icons/base/paperplane.no.svg",
+      "sha1": "3318d507e96ef5d6828f7992782b6206d8a8b9aa"
+    },
+    {
+      "path": "src/assets/icons/base/paperplane.yes.svg",
+      "sha1": "6d3c721a3f0ef1a307050fb68553bf155682e155"
+    },
+    {
+      "path": "src/assets/icons/base/pause.fill.no.svg",
+      "sha1": "9a0a531ff928356da0b1804ba460c9b3e4021ef5"
+    },
+    {
+      "path": "src/assets/icons/base/pause.fill.yes.svg",
+      "sha1": "9a0a531ff928356da0b1804ba460c9b3e4021ef5"
+    },
+    {
+      "path": "src/assets/icons/base/pencil.no.svg",
+      "sha1": "96df0cffab5157fc719708731e46c608f333ea02"
+    },
+    {
+      "path": "src/assets/icons/base/pencil.yes.svg",
+      "sha1": "96df0cffab5157fc719708731e46c608f333ea02"
+    },
+    {
+      "path": "src/assets/icons/base/person.2.no.svg",
+      "sha1": "4849590ee052677b9165ee776b61da3c7f599818"
+    },
+    {
+      "path": "src/assets/icons/base/person.2.yes.svg",
+      "sha1": "a4ce6352890b15eb1b667de34088edf454061634"
+    },
+    {
+      "path": "src/assets/icons/base/person.badge.plus.no.svg",
+      "sha1": "d05c96ff7d8731eafe260d5c262d00ca7dcaa24f"
+    },
+    {
+      "path": "src/assets/icons/base/person.badge.plus.yes.svg",
+      "sha1": "025ae43312497c44cf88fc3aa88a141cf8d53078"
+    },
+    {
+      "path": "src/assets/icons/base/person.circle.no.svg",
+      "sha1": "c3418644214f0cd94a7e7b7a5bba8e40f29ddf80"
+    },
+    {
+      "path": "src/assets/icons/base/person.circle.yes.svg",
+      "sha1": "a31ac213649402b9f143fca54ef54e04e6714519"
+    },
+    {
+      "path": "src/assets/icons/base/person.no.svg",
+      "sha1": "a21d883840f591b49fc4f7709d9e1d5f36cc429f"
+    },
+    {
+      "path": "src/assets/icons/base/person.slash.no.svg",
+      "sha1": "87346c2292cc6bc106f77262d7a98b714c762be6"
+    },
+    {
+      "path": "src/assets/icons/base/person.slash.yes.svg",
+      "sha1": "0bc835a826359c9cd53c5aa44a2a1f3493119876"
+    },
+    {
+      "path": "src/assets/icons/base/person.yes.svg",
+      "sha1": "a113b3b5e21f8ecddcce45a4004a64c4c88f55ed"
+    },
+    {
+      "path": "src/assets/icons/base/phone.arrow.down.left.no.svg",
+      "sha1": "5a9fcc473dabfb185297fe52dee6054491432c9c"
+    },
+    {
+      "path": "src/assets/icons/base/phone.arrow.down.left.yes.svg",
+      "sha1": "3d766529034b3ad1537b1ce554f63f42246927fc"
+    },
+    {
+      "path": "src/assets/icons/base/phone.arrow.up.right.no.svg",
+      "sha1": "9d05c6555421a8856e89adaf183f7defb57dba19"
+    },
+    {
+      "path": "src/assets/icons/base/phone.arrow.up.right.yes.svg",
+      "sha1": "f8d9090f70e2496ed52f6460030b23f5432fe8e3"
+    },
+    {
+      "path": "src/assets/icons/base/phone.badge.plus.no.svg",
+      "sha1": "67375ed230ed2f5a4f98774c5ae34756d8397f5b"
+    },
+    {
+      "path": "src/assets/icons/base/phone.badge.plus.yes.svg",
+      "sha1": "0d2c1c8ed401692dc5bf19cdf42678d5d9ce287b"
+    },
+    {
+      "path": "src/assets/icons/base/phone.badge.waveform.no.svg",
+      "sha1": "0608e03a91395eea8b5dc6aab99651f6a9b775a4"
+    },
+    {
+      "path": "src/assets/icons/base/phone.badge.waveform.yes.svg",
+      "sha1": "d7b8dbbfd94b6ecc02108837ffff613ded9fd805"
+    },
+    {
+      "path": "src/assets/icons/base/phone.circle.no.svg",
+      "sha1": "67f10e468941d3d5261de57f67b7c62a158a77f6"
+    },
+    {
+      "path": "src/assets/icons/base/phone.circle.yes.svg",
+      "sha1": "5c9c07fd4cc3abf161c3e5c4f6d7e06260466c5f"
+    },
+    {
+      "path": "src/assets/icons/base/phone.down.no.svg",
+      "sha1": "e1963929803053b96d490fea148fb9e878918642"
+    },
+    {
+      "path": "src/assets/icons/base/phone.down.yes.svg",
+      "sha1": "7f24b9fe0b1c122d5c850d740cd4b5bce276639d"
+    },
+    {
+      "path": "src/assets/icons/base/phone.no.svg",
+      "sha1": "ef91a3a34b4324ef6e822bf21096fbb58b7b6a5b"
+    },
+    {
+      "path": "src/assets/icons/base/phone.yes.svg",
+      "sha1": "0dfc887b88d4a92a93adbee6099f1d7a6380593a"
+    },
+    {
+      "path": "src/assets/icons/base/photo.no.svg",
+      "sha1": "3a83c235f1f9d48a78c4c4b6257d264d202cefdf"
+    },
+    {
+      "path": "src/assets/icons/base/photo.yes.svg",
+      "sha1": "f5ffa2dca71a2fc93aa4533d1b6a83c58c17c8b5"
+    },
+    {
+      "path": "src/assets/icons/base/pin.no.svg",
+      "sha1": "a167fdbb193a78d11c807f50e1210e5c7cc80c61"
+    },
+    {
+      "path": "src/assets/icons/base/pin.slash.no.svg",
+      "sha1": "f0ffec8f1a27061e70371d6da8b18b79f4bc7c6b"
+    },
+    {
+      "path": "src/assets/icons/base/pin.slash.yes.svg",
+      "sha1": "294758c7843ebc78c7c87a1888c036e7afc68d29"
+    },
+    {
+      "path": "src/assets/icons/base/pin.yes.svg",
+      "sha1": "ca2f5139625035cf139cee659d107599d9039566"
+    },
+    {
+      "path": "src/assets/icons/base/play.circle.no.svg",
+      "sha1": "f00b92195ee8a55d0cc779b4a91dffa907853ad2"
+    },
+    {
+      "path": "src/assets/icons/base/play.circle.yes.svg",
+      "sha1": "273f1a06f082f1ff12b9bb40b3e989b2d9ca015c"
+    },
+    {
+      "path": "src/assets/icons/base/play.no.svg",
+      "sha1": "440be43b7b7c58fc1c99d85024b8865511630034"
+    },
+    {
+      "path": "src/assets/icons/base/play.yes.svg",
+      "sha1": "3bf597e136bca759b2dedf898bafcf496f534e22"
+    },
+    {
+      "path": "src/assets/icons/base/plus.bubble.no.svg",
+      "sha1": "40ee5ed64dbc11e444de926e2c7b551807a85a30"
+    },
+    {
+      "path": "src/assets/icons/base/plus.bubble.yes.svg",
+      "sha1": "026f8bea1876bccaa5eaf9964bd8ebb19b814638"
+    },
+    {
+      "path": "src/assets/icons/base/plus.circle.no.svg",
+      "sha1": "4ac461537882092929a470968f7cf2c821f18b03"
+    },
+    {
+      "path": "src/assets/icons/base/plus.circle.yes.svg",
+      "sha1": "b350c95ac52e7489e5807a84b4b9f72d8449f685"
+    },
+    {
+      "path": "src/assets/icons/base/plus.no.svg",
+      "sha1": "570819059fdf7dfd422048685409028d9d1687ba"
+    },
+    {
+      "path": "src/assets/icons/base/plus.square.no.svg",
+      "sha1": "a167dbb4e656dceef7b3a1f7c90b7754a6d14d94"
+    },
+    {
+      "path": "src/assets/icons/base/plus.square.yes.svg",
+      "sha1": "3feb9e5a3f11abb438bd97ddece0d50b4d5da5e7"
+    },
+    {
+      "path": "src/assets/icons/base/plus.yes.svg",
+      "sha1": "570819059fdf7dfd422048685409028d9d1687ba"
+    },
+    {
+      "path": "src/assets/icons/base/poll.no.svg",
+      "sha1": "b2f67cdaba8b048e4c657865d5e6ed4bd0922770"
+    },
+    {
+      "path": "src/assets/icons/base/poll.yes.svg",
+      "sha1": "b2f67cdaba8b048e4c657865d5e6ed4bd0922770"
+    },
+    {
+      "path": "src/assets/icons/base/progress.indicator.no.svg",
+      "sha1": "dc383ae59a23d2c250488eb4da56498c5291e7f4"
+    },
+    {
+      "path": "src/assets/icons/base/progress.indicator.yes.svg",
+      "sha1": "dc383ae59a23d2c250488eb4da56498c5291e7f4"
+    },
+    {
+      "path": "src/assets/icons/base/questionmark.circle.no.svg",
+      "sha1": "b36590ce934de504151a337611c6c26015d38e49"
+    },
+    {
+      "path": "src/assets/icons/base/questionmark.circle.yes.svg",
+      "sha1": "a9d12dd45a00394a165074383ef3124b4e6447a1"
+    },
+    {
+      "path": "src/assets/icons/base/rearrange.no.svg",
+      "sha1": "8c75d0b75a27b96bf8e751aa26e4c822965f4ca1"
+    },
+    {
+      "path": "src/assets/icons/base/rearrange.yes.svg",
+      "sha1": "8c75d0b75a27b96bf8e751aa26e4c822965f4ca1"
+    },
+    {
+      "path": "src/assets/icons/base/rectangle.on.rectangle.no.svg",
+      "sha1": "9ecceb654e7a55f2952aa4d50d24288b1b82dda9"
+    },
+    {
+      "path": "src/assets/icons/base/rectangle.on.rectangle.slash.no.svg",
+      "sha1": "04a1bff3df307ee399feaf17b0cf639dd57c1dc4"
+    },
+    {
+      "path": "src/assets/icons/base/rectangle.on.rectangle.slash.yes.svg",
+      "sha1": "41ba67d96fa1ad4afc5ab2469af322d6e42a04a2"
+    },
+    {
+      "path": "src/assets/icons/base/rectangle.on.rectangle.yes.svg",
+      "sha1": "0d7bb167f2cb26b252916cbffd2c0f3f00c74b6b"
+    },
+    {
+      "path": "src/assets/icons/base/rectangle.portrait.and.arrow.right.no.svg",
+      "sha1": "a2a416eaefd16f9957e62a2ec1bda69d63dd9c88"
+    },
+    {
+      "path": "src/assets/icons/base/rectangle.portrait.and.arrow.right.yes.svg",
+      "sha1": "2519c48f1862bcd8d3edde8cab9f4f45487bcc5b"
+    },
+    {
+      "path": "src/assets/icons/base/shield.no.svg",
+      "sha1": "efa4ed9e67633d5a634f757b2a0319ecea488505"
+    },
+    {
+      "path": "src/assets/icons/base/shield.yes.svg",
+      "sha1": "05c9d559c569fc065c9723347d87033568aee655"
+    },
+    {
+      "path": "src/assets/icons/base/speaker.no.svg",
+      "sha1": "6846bac7607d38332e9d1d83d58e4ab0b8e17de5"
+    },
+    {
+      "path": "src/assets/icons/base/speaker.slash.no.svg",
+      "sha1": "6dc3b0ea7b68dece3f2414c57206e0ced27b5bb3"
+    },
+    {
+      "path": "src/assets/icons/base/speaker.slash.yes.svg",
+      "sha1": "440ccd427800165d8a1b324c84cf621375418dca"
+    },
+    {
+      "path": "src/assets/icons/base/speaker.wave.1.no.svg",
+      "sha1": "e463d3d2cf65e50132398c31d1d15a9359f74c55"
+    },
+    {
+      "path": "src/assets/icons/base/speaker.wave.1.yes.svg",
+      "sha1": "11c35ffd8d372402c96177f3af2f5354640bd16d"
+    },
+    {
+      "path": "src/assets/icons/base/speaker.wave.3.no.svg",
+      "sha1": "e7b1ed8eae837e36154bb0778a4647fbbf23c0e8"
+    },
+    {
+      "path": "src/assets/icons/base/speaker.wave.3.yes.svg",
+      "sha1": "5bc170b6fabab7f906a0b56c116fc18f39bdbf0d"
+    },
+    {
+      "path": "src/assets/icons/base/speaker.yes.svg",
+      "sha1": "3a509e68b33534e68082123d71c65e4201b1e801"
+    },
+    {
+      "path": "src/assets/icons/base/square.and.arrow.up.no.svg",
+      "sha1": "8001b0182c7a4868968fa5d6dd6520d2dc25274a"
+    },
+    {
+      "path": "src/assets/icons/base/square.and.arrow.up.yes.svg",
+      "sha1": "d0bcf8ca674e24ad68aee6cae722102e9dee5721"
+    },
+    {
+      "path": "src/assets/icons/base/square.and.pencil.no.svg",
+      "sha1": "1cb1331fbbcadeef17f4c0585b8515afd88e80d1"
+    },
+    {
+      "path": "src/assets/icons/base/square.and.pencil.yes.svg",
+      "sha1": "1cb1331fbbcadeef17f4c0585b8515afd88e80d1"
+    },
+    {
+      "path": "src/assets/icons/base/square.text.square.no.svg",
+      "sha1": "33a83132e6a5f1f66c637f4fbb60460ab80a4551"
+    },
+    {
+      "path": "src/assets/icons/base/square.text.square.yes.svg",
+      "sha1": "19079539374bb068a772fbe259e2d230cdcc0594"
+    },
+    {
+      "path": "src/assets/icons/base/star.no.svg",
+      "sha1": "e8e3b7e559c3a1a82e99a48a5617e209b28f0bba"
+    },
+    {
+      "path": "src/assets/icons/base/star.yes.svg",
+      "sha1": "9a744002f82dd1f822da588ab1d304d6152bd920"
+    },
+    {
+      "path": "src/assets/icons/base/sticker.no.svg",
+      "sha1": "f1cc182497e4f349efd07d709633cf69d29b22ab"
+    },
+    {
+      "path": "src/assets/icons/base/sticker.yes.svg",
+      "sha1": "db7f2ea11b338ef2e152fd6dda8909a9e793abc8"
+    },
+    {
+      "path": "src/assets/icons/base/stop.circle.no.svg",
+      "sha1": "de5fbe15b7191272462c9f534bc72cc117931b1f"
+    },
+    {
+      "path": "src/assets/icons/base/stop.circle.yes.svg",
+      "sha1": "9ab672c67d35d002080b2f63aaf76e63d44f69ba"
+    },
+    {
+      "path": "src/assets/icons/base/stop.no.svg",
+      "sha1": "92050599c91045ba6eb8e6d74b256679461cd17a"
+    },
+    {
+      "path": "src/assets/icons/base/stop.yes.svg",
+      "sha1": "676f9caf4f417b1019eb6ae777bf34e4f38e3e16"
+    },
+    {
+      "path": "src/assets/icons/base/sun.max.no.svg",
+      "sha1": "e03c71e3f0a3f2bb9538f2f364aa6d9ee408a681"
+    },
+    {
+      "path": "src/assets/icons/base/sun.max.yes.svg",
+      "sha1": "e03c71e3f0a3f2bb9538f2f364aa6d9ee408a681"
+    },
+    {
+      "path": "src/assets/icons/base/text.bubble.no.svg",
+      "sha1": "080e110a0bc1a282d0830737972febbcb1a4ed4c"
+    },
+    {
+      "path": "src/assets/icons/base/text.bubble.yes.svg",
+      "sha1": "e5a74ffe745de5fec1abbf598f2500499c98a8aa"
+    },
+    {
+      "path": "src/assets/icons/base/text.document.no.svg",
+      "sha1": "16a01ed49a6ead6ca8aeb54ae460863849af9f3a"
+    },
+    {
+      "path": "src/assets/icons/base/text.document.yes.svg",
+      "sha1": "3415ed894db95d46c54431b09f5892e19928069a"
+    },
+    {
+      "path": "src/assets/icons/base/translate.no.svg",
+      "sha1": "bf5d624349fa43bcf3ab0b0b6153bd42ea4c2c92"
+    },
+    {
+      "path": "src/assets/icons/base/translate.yes.svg",
+      "sha1": "bf5d624349fa43bcf3ab0b0b6153bd42ea4c2c92"
+    },
+    {
+      "path": "src/assets/icons/base/trash.no.svg",
+      "sha1": "755dedebb561afcc451f7756a5490b07faed8de6"
+    },
+    {
+      "path": "src/assets/icons/base/trash.yes.svg",
+      "sha1": "b0cab43e199c969817253469ab1dcdd294088e57"
+    },
+    {
+      "path": "src/assets/icons/base/video.badge.plus.no.svg",
+      "sha1": "d0a195ff1e272e7f0f4abdc81af54440d3565a08"
+    },
+    {
+      "path": "src/assets/icons/base/video.badge.plus.yes.svg",
+      "sha1": "7856da138f4aea4c7dd16a3ccac68effc98d6609"
+    },
+    {
+      "path": "src/assets/icons/base/video.no.svg",
+      "sha1": "52abc229c66682d7f2ee30c651c2ba6a6bbd5468"
+    },
+    {
+      "path": "src/assets/icons/base/video.slash.no.svg",
+      "sha1": "921ea30aa2cfc17e16f913dbab1b971cce7a7ee5"
+    },
+    {
+      "path": "src/assets/icons/base/video.slash.yes.svg",
+      "sha1": "1574bf9d6d224d6f11d2ea42179505adfa1bbec9"
+    },
+    {
+      "path": "src/assets/icons/base/video.yes.svg",
+      "sha1": "0b5ff0df031c4e4e4f75832771b59afbf7cdca19"
+    },
+    {
+      "path": "src/assets/icons/base/waveform.no.svg",
+      "sha1": "0af92664d88b5d4eae4505baf03215c9d4ea0482"
+    },
+    {
+      "path": "src/assets/icons/base/waveform.yes.svg",
+      "sha1": "0af92664d88b5d4eae4505baf03215c9d4ea0482"
+    },
+    {
+      "path": "src/assets/icons/base/wifi.no.svg",
+      "sha1": "37b09e1800adbdb0e65e99dea75f7a1f9a25ead0"
+    },
+    {
+      "path": "src/assets/icons/base/wifi.yes.svg",
+      "sha1": "37b09e1800adbdb0e65e99dea75f7a1f9a25ead0"
+    },
+    {
+      "path": "src/assets/icons/base/xmark.circle.no.svg",
+      "sha1": "5fca1536311cab7e7cc5d97942bfab254426b560"
+    },
+    {
+      "path": "src/assets/icons/base/xmark.circle.yes.svg",
+      "sha1": "fc6e8e814a868df903c42bd89cb448b40507f7ed"
+    },
+    {
+      "path": "src/assets/icons/base/xmark.no.svg",
+      "sha1": "276a5479c942e9c730aab3728193ae270c241a8d"
+    },
+    {
+      "path": "src/assets/icons/base/xmark.yes.svg",
+      "sha1": "276a5479c942e9c730aab3728193ae270c241a8d"
+    },
+    {
+      "path": "src/assets/icons/base/zoom_in_map.no.svg",
+      "sha1": "1cfd5b0a0a9943c6c86536b2388d940197c37731"
+    },
+    {
+      "path": "src/assets/icons/base/zoom_in_map.yes.svg",
+      "sha1": "c27b43155f81cfcda90240ef80bc5027251a4163"
+    },
+    {
+      "path": "src/assets/icons/base/zoom_out_map.no.svg",
+      "sha1": "eb689a19abcb9409f319e494da5c1a69961e2d06"
+    },
+    {
+      "path": "src/assets/icons/base/zoom_out_map.yes.svg",
+      "sha1": "174c2b625c88c6265a27a1358fa51d0740a94a99"
+    },
+    {
+      "path": "src/assets/icons/tabs/CallsDefault.svg",
+      "sha1": "d461e101f49d1b13a5ed9c7f447c5898653d8241"
+    },
+    {
+      "path": "src/assets/icons/tabs/CallsSelected.svg",
+      "sha1": "3efd8f581cce47d0b73703fd8fedfe38390516f9"
+    },
+    {
+      "path": "src/assets/icons/tabs/ChatsDefault.svg",
+      "sha1": "6cd8dc165ab02e91e81946fb1bdd50bbe1cdaebe"
+    },
+    {
+      "path": "src/assets/icons/tabs/ChatsSelected.svg",
+      "sha1": "3504524da45391899baec50c40c42b56287c118c"
+    },
+    {
+      "path": "src/assets/icons/tabs/GroupsDefault.svg",
+      "sha1": "5639975122a141ea367943983c8f9c93377af113"
+    },
+    {
+      "path": "src/assets/icons/tabs/GroupsSelected.svg",
+      "sha1": "7df3b8f0a6e51eb6f3a7650e9dfe9bb941fab1d6"
+    },
+    {
+      "path": "src/assets/icons/tabs/UsersDefault.svg",
+      "sha1": "61ec726a2dc75964f96d21b41fcffb6795ce7fcc"
+    },
+    {
+      "path": "src/assets/icons/tabs/UsersSelected.svg",
+      "sha1": "412a490df51890a0ae90cf61202a0989d1336a33"
+    }
+  ]
+}
