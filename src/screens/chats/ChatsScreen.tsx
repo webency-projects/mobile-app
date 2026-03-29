@@ -1,11 +1,15 @@
-import { Text, View, StyleSheet} from "react-native";
+import { View, StyleSheet} from "react-native";
+import { ListItem } from '@/components/ListItem.tsx';
 interface IProps {}
 
 export const ChatsScreen = (props: IProps) => {
     const {} = props;
     return (
         <View style={styles.container}>
-            <Text>Component</Text>
+            <ListItem/>
+            <ListItem/>
+            <ListItem/>
+            <ListItem/>
         </View>
     )
 }
@@ -13,7 +17,5 @@ export const ChatsScreen = (props: IProps) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
 });

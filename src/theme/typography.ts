@@ -124,7 +124,7 @@ export const fonts = {
   caption1: {
     bold: {
       fontFamily: "System",
-      fontWeight: 700,
+      fontWeight: "bold",
       fontSize: 12,
       lineHeight: 1.4,
     },
