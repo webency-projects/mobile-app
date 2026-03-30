@@ -1,27 +1,81 @@
-import { Text, View, StyleSheet} from "react-native";
+import { Text, View, StyleSheet } from 'react-native';
 import { themeColors } from '@/theme/colors.ts';
-import { fonts } from '@/theme/typography.ts';
-interface IProps {}
+import type { UserChatListItemType } from '@/types/ChatListTypes.ts';
+import SenderIcon from "@/assets/icons/base/done_all.yes.svg"
+import FilePhotoIcon from "@/assets/icons/base/photo.no.svg"
+import FileVideoIcon from "@/assets/icons/base/video.no.svg"
+
+interface IProps {
+  item: UserChatListItemType;
+}
 
 export const ListItem = (props: IProps) => {
-    const {} = props;
-    return (
-      <View style={styles.container}>
-        <View style={styles.avatar} />
-        <View style={styles.content}>
-          <View style={styles.titleWrap}>
-            <Text style={styles.title}>Tom Hanks</Text>
-            <Text style={styles.time}>22:40</Text>
-          </View>
+  const { item } = props;
+  const getSubtitle = (userItem: UserChatListItemType) => {
+    switch (userItem.type) {
+      case 'message':
+        return (
           <View style={styles.subtitleWrap}>
-            <Text style={styles.subtitle} numberOfLines={1}>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            {userItem.isSender && <SenderIcon width={16} height={16} />}
+            <Text style={styles.subtitle}>{userItem.message}</Text>
+          </View>
+        );
+      case 'file':
+        return (
+          <View style={styles.subtitleWrap}>
+            {userItem.isSender && <SenderIcon width={16} height={16} />}
+            {userItem.file === 'photo' ? (
+              <FilePhotoIcon width={16} height={16} />
+            ) : (
+              <FileVideoIcon width={16} height={16} />
+            )}
+            <Text style={styles.subtitle}>
+              {userItem.file === 'photo' ? 'Photo' : 'Video'}
             </Text>
           </View>
+        );
+      case 'fileMessage':
+        return (
+          <View style={styles.subtitleWrap}>
+            {userItem.isSender && <SenderIcon width={16} height={16} />}
+            {userItem.file === 'photo' ? (
+              <FilePhotoIcon width={16} height={16} />
+            ) : (
+              <FileVideoIcon width={16} height={16} />
+            )}
+            <Text style={styles.subtitle}>{userItem.message}</Text>
+          </View>
+        );
+      default:
+        return 'No message';
+    }
+  };
+  const createAvatar = (username: string) => {
+    const words = username.split(' ');
+    if (words.length > 1) {
+      return `${words[0]?.charAt(0).toUpperCase()}${words[1]
+        ?.charAt(0)
+        .toUpperCase()}`;
+    }
+    return words[0]?.charAt(0).toUpperCase()
+  }
+  return (
+    <View style={styles.container}>
+      <View style={styles.avatar}>
+        <Text style={styles.avatarText}>{createAvatar(item.name)}</Text>
+      </View>
+      <View style={styles.content}>
+        <View style={styles.titleWrap}>
+          <Text style={styles.title}>{item.name}</Text>
+          <Text style={styles.time}>{item.time}</Text>
+        </View>
+        <View style={styles.subtitleWrap}>
+            {getSubtitle(item)}
         </View>
       </View>
-    );
-}
+    </View>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -37,6 +91,13 @@ const styles = StyleSheet.create({
     height: 48,
     borderRadius: 48,
     backgroundColor: themeColors.light.primary,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  avatarText: {
+    color: themeColors.light.neutral300,
+    fontSize: 16,
+    fontWeight: 'bold',
   },
   content: {
     flexGrow: 1,
@@ -62,6 +123,8 @@ const styles = StyleSheet.create({
   subtitleWrap: {
     maxWidth: 300,
     flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
     flexShrink: 0,
   },
   subtitle: {},

@@ -12,6 +12,7 @@ import UsersSelectedIcon from "@/assets/icons/tabs/UsersSelected.svg"
 import UsersDefaultIcon from "@/assets/icons/tabs/UsersDefault.svg"
 import GroupsSelectedIcon from "@/assets/icons/tabs/GroupsSelected.svg"
 import GroupsDefaultIcon from "@/assets/icons/tabs/GroupsDefault.svg"
+import { ChatsNavigator } from '@/navigation/ChatsNavigator.tsx';
 
 const Tabs = createBottomTabNavigator<TabsParamList>();
 
@@ -47,7 +48,7 @@ export const TabsNavigator = () => {
     <Tabs.Navigator>
       <Tabs.Screen
         name={'ChatsTab'}
-        component={ChatsScreen}
+        component={ChatsNavigator}
         options={{
           tabBarLabel: 'Chats',
           headerTitle: 'Chats',
