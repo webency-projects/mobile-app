@@ -4,6 +4,7 @@ import type { UserChatListItemType } from '@/types/ChatListTypes.ts';
 import SenderIcon from "@/assets/icons/base/done_all.yes.svg"
 import FilePhotoIcon from "@/assets/icons/base/photo.no.svg"
 import FileVideoIcon from "@/assets/icons/base/video.no.svg"
+import { useAppTheme } from '@/hooks/useAppTheme.ts';
 
 interface IProps {
   item: UserChatListItemType;
@@ -11,13 +12,14 @@ interface IProps {
 
 export const ListItem = (props: IProps) => {
   const { item } = props;
+  const {colors} = useAppTheme()
   const getSubtitle = (userItem: UserChatListItemType) => {
     switch (userItem.type) {
       case 'message':
         return (
           <View style={styles.subtitleWrap}>
             {userItem.isSender && <SenderIcon width={16} height={16} />}
-            <Text style={styles.subtitle}>{userItem.message}</Text>
+            <Text style={[styles.subtitle, {color: colors.textSecondary}]}>{userItem.message}</Text>
           </View>
         );
       case 'file':
@@ -29,7 +31,7 @@ export const ListItem = (props: IProps) => {
             ) : (
               <FileVideoIcon width={16} height={16} />
             )}
-            <Text style={styles.subtitle}>
+            <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
               {userItem.file === 'photo' ? 'Photo' : 'Video'}
             </Text>
           </View>
@@ -43,7 +45,9 @@ export const ListItem = (props: IProps) => {
             ) : (
               <FileVideoIcon width={16} height={16} />
             )}
-            <Text style={styles.subtitle}>{userItem.message}</Text>
+            <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
+              {userItem.message}
+            </Text>
           </View>
         );
       default:
@@ -60,14 +64,14 @@ export const ListItem = (props: IProps) => {
     return words[0]?.charAt(0).toUpperCase()
   }
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, {backgroundColor: colors.background02}]}>
       <View style={styles.avatar}>
         <Text style={styles.avatarText}>{createAvatar(item.name)}</Text>
       </View>
       <View style={styles.content}>
         <View style={styles.titleWrap}>
-          <Text style={styles.title}>{item.name}</Text>
-          <Text style={styles.time}>{item.time}</Text>
+          <Text style={[styles.title, {color: colors.textPrimary}]}>{item.name}</Text>
+          <Text style={[styles.time, {color: colors.textSecondary}]}>{item.time}</Text>
         </View>
         <View style={styles.subtitleWrap}>
             {getSubtitle(item)}
@@ -81,7 +85,6 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: themeColors.light.neutral300,
     gap: 10,
     paddingVertical: 12,
     paddingHorizontal: 16,
