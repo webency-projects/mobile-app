@@ -37,7 +37,9 @@ export const RootNavigator = () => {
           ),
         }}
       >
-        <Stack.Screen name={'Tabs'} component={TabsNavigator} />
+        <Stack.Screen name={'Tabs'} component={TabsNavigator} options={{
+          headerTitle: "",
+        }}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

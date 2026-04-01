@@ -1,13 +1,16 @@
 
 
 import { Text, View, StyleSheet} from "react-native";
+import { NavigationBar } from '@/components/NavigationBar.tsx';
+import { useNavigation } from '@react-navigation/core';
 interface IProps {}
 
 export const UserChatScreen = (props: IProps) => {
     const {} = props;
+
     return (
         <View style={styles.container}>
-            <Text>UserChatScreen</Text>
+            <Text>Chat user</Text>
         </View>
     )
 }
@@ -15,7 +18,5 @@ export const UserChatScreen = (props: IProps) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
   },
 });
