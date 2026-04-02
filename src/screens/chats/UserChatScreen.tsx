@@ -1,18 +1,19 @@
 import { View, StyleSheet} from "react-native";
 import { SendMessageBlock } from '@/components/SendMessageBlock.tsx';
-import { themeColors } from '@/theme/colors.ts';
 import { MessageText } from '@/components/MessageText.tsx';
 import { useAppTheme } from '@/hooks/useAppTheme.ts';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 
 interface IProps {}
 
 export const UserChatScreen = (props: IProps) => {
     const {} = props;
+    const insets = useSafeAreaInsets();
     const {colors} = useAppTheme();
 
     return (
-      <View style={[styles.container, { backgroundColor: colors.background01 }]}>
+      <View style={[styles.container, { backgroundColor: colors.background01, paddingBottom: insets.bottom }]}>
         <View style={styles.messages}>
           <MessageText isRight={false}/>
           <MessageText isRight={true}/>
@@ -28,7 +29,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'space-between',
-    backgroundColor: themeColors.light.background03,
   },
   messages: {
     flex: 1,

@@ -1,5 +1,5 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { RootStackParamList } from './types';
+import { createStackNavigator  } from '@react-navigation/stack';
+import type { RootStackParamList } from './types';
 import { TabsNavigator } from './TabsNavigator.tsx';
 import { useAppTheme } from '@/hooks/useAppTheme.ts';
 import {
@@ -7,8 +7,11 @@ import {
   DarkTheme,
   DefaultTheme,
 } from '@react-navigation/native';
+import { UserChatScreen } from '@/screens/chats/UserChatScreen.tsx';
+import { NavigationBar } from '@/components/NavigationBar.tsx';
 
-const Stack = createNativeStackNavigator<RootStackParamList>();
+const Stack = createStackNavigator<RootStackParamList>();
+
 
 export const RootNavigator = () => {
   const { isDark, colors } = useAppTheme();
@@ -28,6 +31,9 @@ export const RootNavigator = () => {
       <Stack.Navigator>
         <Stack.Screen name={'Tabs'} component={TabsNavigator} options={{
           headerShown: false,
+        }}/>
+        <Stack.Screen name={"UserChat"} component={UserChatScreen} options={{
+          header: ({route}) => <NavigationBar title={route.params?.title}/>
         }}/>
       </Stack.Navigator>
     </NavigationContainer>

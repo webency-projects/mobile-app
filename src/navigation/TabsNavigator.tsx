@@ -3,8 +3,8 @@ import { TabsParamList } from './types';
 import { CallsScreen } from '@/screens/calls/CallsScreen.tsx';
 import { UsersScreen } from '@/screens/users/UsersScreen.tsx';
 import { GroupsScreen } from '@/screens/groups/GroupsScreen.tsx';
-import { ChatsNavigator } from '@/navigation/ChatsNavigator.tsx';
 import { TabIcons } from '@/components/TabIcons.tsx';
+import { ChatsScreen } from '@/screens/chats/ChatsScreen.tsx';
 
 const Tabs = createBottomTabNavigator<TabsParamList>();
 
@@ -13,7 +13,7 @@ export const TabsNavigator = () => {
     <Tabs.Navigator screenOptions={{ headerShown: false }}>
       <Tabs.Screen
         name={'ChatsTab'}
-        component={ChatsNavigator}
+        component={ChatsScreen}
         options={{
           tabBarLabel: 'Chats',
           tabBarIcon: TabIcons.Chats,

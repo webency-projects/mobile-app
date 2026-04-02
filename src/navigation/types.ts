@@ -1,14 +1,11 @@
 
 
-export type ChatStackParamList = {
-  Chats: undefined;
-  UserChat: {
-    title: string;
-  };
-};
 
 export type RootStackParamList = {
   Tabs: undefined;
+  UserChat: {
+    title?: string
+  };
 };
 
 export type TabsParamList = {

@@ -1,19 +1,25 @@
-import { View, StyleSheet, Pressable } from "react-native";
+import { StyleSheet, Pressable } from "react-native";
 import { ListItem } from '@/components/ListItem.tsx';
 import {DATA as MockData} from '@/screens/chats/Data.ts';
 import { useNavigation } from '@react-navigation/core';
 import { useAppTheme } from '@/hooks/useAppTheme.ts';
 import { UserChatListItemType } from '@/types/ChatListTypes.ts';
 import {SafeAreaView} from "react-native-safe-area-context"
+import {RootStackParamList} from "@/navigation/types.ts"
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+
+
+type Nav = NativeStackNavigationProp<RootStackParamList>;
+
 interface IProps {}
 
 export const ChatsScreen = (props: IProps) => {
     const {} = props;
-    const navigation = useNavigation();
+    const navigation = useNavigation<Nav>();
     const {colors} = useAppTheme()
 
     const handleNavigate = (item: UserChatListItemType) => {
-      navigation.navigate('ChatsTab', {screen: "UserChat", params: {title: item.name}})
+      navigation.navigate('UserChat', {title: item.name})
     }
     return (
       <SafeAreaView
@@ -28,7 +34,6 @@ export const ChatsScreen = (props: IProps) => {
        >
     );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,

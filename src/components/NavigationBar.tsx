@@ -9,7 +9,7 @@ import { useNavigation } from '@react-navigation/core';
 import { useSafeAreaInsets } from "react-native-safe-area-context"
 import { useAppTheme } from '@/hooks/useAppTheme.ts';
 interface IProps {
-  title: string,
+  title?: string,
 }
 
 export const NavigationBar = (props: IProps) => {
@@ -26,7 +26,7 @@ export const NavigationBar = (props: IProps) => {
           </TouchableOpacity>
           <View style={styles.icon} />
           <View style={styles.content}>
-            <Text style={[styles.contentTitle, {color: colors.textPrimary}]}>{title}</Text>
+            <Text style={[styles.contentTitle, {color: colors.textPrimary}]}>{title || "Hello"}</Text>
             <Text style={[styles.contentSubTitle, {color: colors.textSecondary}]}>online</Text>
           </View>
         </View>
