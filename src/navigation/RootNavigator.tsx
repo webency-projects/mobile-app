@@ -28,17 +28,9 @@ export const RootNavigator = () => {
   };
   return (
     <NavigationContainer theme={navTheme}>
-      <Stack.Navigator
-        screenOptions={{
-          headerRight: () => (
-            <Pressable onPress={() => setTheme(isDark ? 'light' : 'dark')}>
-              {isDark ? <LightIcon color={colors.neutral900}/> : <DarkIcon color={"red"} />}
-            </Pressable>
-          ),
-        }}
-      >
+      <Stack.Navigator>
         <Stack.Screen name={'Tabs'} component={TabsNavigator} options={{
-          headerTitle: "",
+          headerShown: false,
         }}/>
       </Stack.Navigator>
     </NavigationContainer>

@@ -45,13 +45,12 @@ const GroupsTabIcon = ({ focused, color, size }: TabIconType) =>
 
 export const TabsNavigator = () => {
   return (
-    <Tabs.Navigator>
+    <Tabs.Navigator screenOptions={{ headerShown: false }}>
       <Tabs.Screen
         name={'ChatsTab'}
         component={ChatsNavigator}
         options={{
           tabBarLabel: 'Chats',
-          headerTitle: 'Chats',
           tabBarIcon: ChatsTabIcon,
         }}
       />

@@ -7,18 +7,18 @@ import BackIcon from "@/assets/icons/base/chevron.left.no.svg"
 
 import { themeColors } from '@/theme/colors.ts';
 import { useNavigation } from '@react-navigation/core';
-
+import { useSafeAreaInsets } from "react-native-safe-area-context"
 interface IProps {
   title: string,
 }
 
 export const NavigationBar = (props: IProps) => {
     const {title} = props;
-
+    const insets = useSafeAreaInsets();
     const navigation = useNavigation();
 
     return (
-      <View style={styles.container}>
+      <View style={[styles.container, {marginTop: insets.top}]}>
         <View style={styles.leftBar}>
           <TouchableOpacity onPress={() => navigation.goBack()}>
             <BackIcon />

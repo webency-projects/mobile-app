@@ -1,15 +1,15 @@
 
-
-import { Text, View, StyleSheet} from "react-native";
+import {SafeAreaView} from "react-native-safe-area-context"
+import { Text, StyleSheet} from "react-native";
 interface IProps {}
 
 export const CallsScreen = (props: IProps) => {
     const {} = props;
     return (
-        <View style={styles.container}>
-            <Text>Component</Text>
-        </View>
-    )
+      <SafeAreaView style={styles.container}>
+        <Text>Component</Text>
+      </SafeAreaView>
+    );
 }
 
 const styles = StyleSheet.create({
