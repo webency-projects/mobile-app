@@ -2,15 +2,17 @@
 import { Text, View, StyleSheet} from "react-native";
 import { themeColors } from '@/theme/colors.ts';
 import SenderIcon from '@/assets/icons/base/done_all.yes.svg';
+import { useAppTheme } from '@/hooks/useAppTheme.ts';
 interface IProps {
   isRight: boolean;
 }
 
 export const MessageText = (props: IProps) => {
     const {isRight} = props;
+    const { colors } = useAppTheme();
     const side = isRight ? 'flex-end' : "flex-start"
-    const bgColor = isRight ? themeColors.light.primary : themeColors.light.neutral300
-    const color = isRight ? themeColors.light.textWhite : themeColors.light.textPrimary
+    const bgColor = isRight ? colors.primary : colors.background03
+    const color = isRight ? colors.textPrimary : colors.textPrimary
     return (
       <View
         style={[

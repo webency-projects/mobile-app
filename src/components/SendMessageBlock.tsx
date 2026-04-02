@@ -1,4 +1,3 @@
-
 import { Text, View, StyleSheet} from "react-native";
 import  SendButton  from "@/assets/icons/base/SendButton.svg"
 import AddIcon from "@/assets/icons/base/plus.circle.no.svg"
@@ -7,25 +6,26 @@ import SmileIcon from "@/assets/icons/base/face.smiling.no.svg"
 import StickerIcon from "@/assets/icons/base/sticker.no.svg"
 import AiIcon from "@/assets/icons/base/ai.no.svg"
 
-import { themeColors } from '@/theme/colors.ts';
+import { useAppTheme } from '@/hooks/useAppTheme.ts';
 interface IProps {}
 
 export const SendMessageBlock = (props: IProps) => {
     const {} = props;
+    const {colors} = useAppTheme()
     return (
-      <View style={styles.container}>
+      <View style={[styles.container, {backgroundColor: colors.neutral50}]}>
         <View style={styles.messageBox}>
-          <Text>Type your message</Text>
+          <Text style={{color: colors.textPrimary}}>Type your message</Text>
         </View>
-        <View style={styles.controls}>
+        <View style={[styles.controls, {borderColor: colors.neutral300}]}>
           <View style={styles.leftControls}>
-            <AddIcon/>
-            <MicrophoneIcon/>
-            <SmileIcon/>
-            <StickerIcon />
-            <AiIcon/>
+            <AddIcon color={colors.iconPrimary}/>
+            <MicrophoneIcon color={colors.iconPrimary}/>
+            <SmileIcon color={colors.iconPrimary}/>
+            <StickerIcon color={colors.iconPrimary}/>
+            <AiIcon color={colors.iconPrimary}/>
           </View>
-          <SendButton color={themeColors.light.neutral300} />
+          <SendButton color={colors.neutral300} />
         </View>
       </View>
     );
@@ -33,7 +33,6 @@ export const SendMessageBlock = (props: IProps) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: themeColors.light.neutral50,
     marginHorizontal: 10,
     borderRadius: 8,
   },
@@ -41,7 +40,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     borderTopWidth: 1,
-    borderColor: themeColors.light.neutral300,
     padding: 8,
   },
   leftControls: {

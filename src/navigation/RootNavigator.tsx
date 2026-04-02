@@ -1,10 +1,7 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { RootStackParamList } from './types';
 import { TabsNavigator } from './TabsNavigator.tsx';
-import { Pressable } from 'react-native';
 import { useAppTheme } from '@/hooks/useAppTheme.ts';
-import DarkIcon from '@/assets/icons/base/moon.yes.svg';
-import LightIcon from '@/assets/icons/base/sun.max.yes.svg';
 import {
   NavigationContainer,
   DarkTheme,
@@ -14,7 +11,7 @@ import {
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export const RootNavigator = () => {
-  const { isDark, setTheme, colors } = useAppTheme();
+  const { isDark, colors } = useAppTheme();
   const navTheme = {
     ...(isDark ? DarkTheme : DefaultTheme),
     colors: {
