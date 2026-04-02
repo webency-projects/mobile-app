@@ -1,4 +1,3 @@
-
 import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
 import VideoIcon from "@/assets/icons/base/video.no.svg"
 import PhoneIcon from "@/assets/icons/base/phone.no.svg"
@@ -8,31 +7,33 @@ import BackIcon from "@/assets/icons/base/chevron.left.no.svg"
 import { themeColors } from '@/theme/colors.ts';
 import { useNavigation } from '@react-navigation/core';
 import { useSafeAreaInsets } from "react-native-safe-area-context"
+import { useAppTheme } from '@/hooks/useAppTheme.ts';
 interface IProps {
   title: string,
 }
 
 export const NavigationBar = (props: IProps) => {
     const {title} = props;
+    const { colors } = useAppTheme()
     const insets = useSafeAreaInsets();
     const navigation = useNavigation();
 
     return (
-      <View style={[styles.container, {marginTop: insets.top}]}>
+      <View style={[styles.container, {marginTop: insets.top, backgroundColor: colors.background01}]}>
         <View style={styles.leftBar}>
           <TouchableOpacity onPress={() => navigation.goBack()}>
-            <BackIcon />
+            <BackIcon color={colors.iconPrimary} />
           </TouchableOpacity>
           <View style={styles.icon} />
           <View style={styles.content}>
-            <Text style={styles.contentTitle}>{title}</Text>
-            <Text style={styles.contentSubTitle}>online</Text>
+            <Text style={[styles.contentTitle, {color: colors.textPrimary}]}>{title}</Text>
+            <Text style={[styles.contentSubTitle, {color: colors.textSecondary}]}>online</Text>
           </View>
         </View>
         <View style={styles.rightBar}>
-          <VideoIcon />
-          <PhoneIcon />
-          <InfoIcon />
+          <VideoIcon color={colors.iconPrimary} />
+          <PhoneIcon color={colors.iconPrimary} />
+          <InfoIcon color={colors.iconPrimary} />
         </View>
       </View>
     );
@@ -44,8 +45,8 @@ const styles = StyleSheet.create({
     marginTop: 20,
     justifyContent: 'space-between',
     alignItems: 'center',
+    paddingVertical: 8,
     marginHorizontal: 20,
-    backgroundColor: themeColors.light.textWhite,
   },
   rightBar: {
     flexDirection: 'row',
@@ -67,7 +68,6 @@ const styles = StyleSheet.create({
   },
   contentSubTitle: {
     fontSize: 12,
-    color: themeColors.light.neutral700,
   },
   leftBar: {
     flexDirection: 'row',
