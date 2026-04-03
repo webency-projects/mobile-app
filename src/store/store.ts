@@ -1,13 +1,14 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
-import usersReducer from "./slices/user.slice"
-import { AppState } from '@/store/types.ts';
+import { combineReducers, configureStore, Reducer } from '@reduxjs/toolkit';
+import { usersReducer } from './slices/user.slice';
+import { chatReducer } from './slices/chat.slice';
+import { messagesReducer } from './slices/message.slice';
+import type { StateSchema } from '@/store/types.ts';
 
-const rootReducer = combineReducers<AppState>({
+
+const rootReducer: Reducer<StateSchema> = combineReducers({
   users: usersReducer,
-  messages: {},
-  chats: {},
-  calls: {},
-  currentChatId: null,
+  chats: chatReducer,
+  messages: messagesReducer,
 })
 
 export const store = configureStore({

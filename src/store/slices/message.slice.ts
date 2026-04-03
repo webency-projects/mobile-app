@@ -1,17 +1,26 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import {ChatId} from "@/types/chat.types"
-import {MOCK_MESSAGES} from "@/store/mock.ts"
-import { AppState } from '@/store/types.ts';
+import { createSlice } from '@reduxjs/toolkit';
 import { Message, MessageId } from '@/types/message.types.ts';
 
-const initialState =  MOCK_MESSAGES as Record<MessageId, Message>
+import {MOCK_MESSAGES} from "@/store/mock.ts"
 
-export const messageSlice = createSlice({
+
+export interface MessagesSchema {
+  data: Record<MessageId, Message>
+}
+
+const initialState: MessagesSchema = {
+  data: MOCK_MESSAGES,
+}
+
+const messageSlice = createSlice({
   name: 'messages',
   initialState,
   reducers: {
-    setCurrentChatId(state:AppState, payload: PayloadAction<ChatId | null>) {
-      state.currentChatId = payload
-    },
+
   },
 });
+
+
+export const {} = messageSlice.actions;
+export const messagesReducer =  messageSlice.reducer;
+

@@ -1,8 +1,15 @@
 import { createSlice } from '@reduxjs/toolkit';
-import {MOCK_USERS} from "@/store/mock.ts"
 import { User, UserId } from '@/types/user.types.ts';
 
-const initialState =  MOCK_USERS as Record<UserId, User>
+import {MOCK_USERS} from "@/store/mock.ts"
+
+
+export interface UserSchema {
+  data: Record<UserId, User>
+}
+const initialState: UserSchema = {
+  data: MOCK_USERS
+}
 
 export const usersSlice = createSlice({
   name: "users",
@@ -13,4 +20,4 @@ export const usersSlice = createSlice({
 })
 
 export const {} = usersSlice.actions;
-export default usersSlice.reducer
+export const usersReducer =  usersSlice.reducer
