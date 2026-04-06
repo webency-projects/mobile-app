@@ -1,6 +1,5 @@
 
 import { Text, View, StyleSheet} from "react-native";
-import { themeColors } from '@/theme/colors.ts';
 import SenderIcon from '@/assets/icons/base/done_all.yes.svg';
 import { useAppTheme } from '@/hooks/useAppTheme.ts';
 interface IProps {

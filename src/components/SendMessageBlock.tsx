@@ -20,10 +20,11 @@ export const SendMessageBlock = (props: IProps) => {
     <View style={[styles.container, { backgroundColor: colors.neutral50 }]}>
       <View style={styles.messageBox}>
         <TextInput
-          style={[styles.input, { borderColor: colors.borderLight }]}
+          style={[styles.input, { borderColor: colors.borderLight, color: colors.textPrimary }]}
           value={message}
           onChangeText={v => setMessage(v)}
           placeholder={'Type a message'}
+          placeholderTextColor={colors.textTertiary}
           multiline
         />
       </View>

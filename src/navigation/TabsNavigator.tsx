@@ -5,18 +5,20 @@ import { UsersScreen } from '@/screens/users/UsersScreen.tsx';
 import { GroupsScreen } from '@/screens/groups/GroupsScreen.tsx';
 import { TabIcons } from '@/components/TabIcons.tsx';
 import { ChatsScreen } from '@/screens/chats/ChatsScreen.tsx';
+import { TabHeader } from '@/components/TabHeader.tsx';
 
 const Tabs = createBottomTabNavigator<TabsParamList>();
 
 export const TabsNavigator = () => {
   return (
-    <Tabs.Navigator screenOptions={{ headerShown: false }}>
+    <Tabs.Navigator screenOptions={{ headerShown: true }}>
       <Tabs.Screen
         name={'ChatsTab'}
         component={ChatsScreen}
         options={{
           tabBarLabel: 'Chats',
           tabBarIcon: TabIcons.Chats,
+          header: () => <TabHeader title={'Chats'} />,
         }}
       />
       <Tabs.Screen
@@ -24,8 +26,8 @@ export const TabsNavigator = () => {
         component={CallsScreen}
         options={{
           tabBarLabel: 'Calls',
-          headerTitle: 'Calls',
           tabBarIcon: TabIcons.Calls,
+          header: () => <TabHeader title={'Calls'} />,
         }}
       />
       <Tabs.Screen
@@ -33,8 +35,8 @@ export const TabsNavigator = () => {
         component={UsersScreen}
         options={{
           tabBarLabel: 'Users',
-          headerTitle: 'Users',
           tabBarIcon: TabIcons.Users,
+          header: () => <TabHeader title={'Users'} />,
         }}
       />
       <Tabs.Screen
@@ -42,8 +44,8 @@ export const TabsNavigator = () => {
         component={GroupsScreen}
         options={{
           tabBarLabel: 'Groups',
-          headerTitle: 'Groups',
           tabBarIcon: TabIcons.Groups,
+          header: () => <TabHeader title={'Groups'} />,
         }}
       />
     </Tabs.Navigator>
