@@ -9,6 +9,7 @@ import {
 } from '@react-navigation/native';
 import { UserChatScreen } from '@/screens/chats/UserChatScreen.tsx';
 import { NavigationBar } from '@/components/NavigationBar.tsx';
+import { ProfileScreen } from '@/screens/profile/ProfileScreen.tsx';
 
 const Stack = createStackNavigator<RootStackParamList>();
 
@@ -35,6 +36,7 @@ export const RootNavigator = () => {
         <Stack.Screen name={"UserChat"} component={UserChatScreen} options={{
           header: ({route}) => <NavigationBar title={route.params?.title}/>
         }}/>
+        <Stack.Screen name={"Profile"} component={ProfileScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

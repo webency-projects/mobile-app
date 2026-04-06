@@ -6,6 +6,7 @@ export type RootStackParamList = {
   UserChat: {
     title?: string
   };
+  Profile: undefined;
 };
 
 export type TabsParamList = {

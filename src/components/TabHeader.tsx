@@ -1,8 +1,9 @@
-import { Text, View, StyleSheet} from "react-native";
+import { Text, View, StyleSheet, Pressable } from "react-native";
 import { themeColors } from '@/theme/colors.ts';
 import {useSafeAreaInsets} from "react-native-safe-area-context"
 import { useAppTheme } from '@/hooks/useAppTheme.ts';
 import { ToggleTheme } from '@/components/shared/ToggleTheme.tsx';
+import { useNavigation } from '@react-navigation/core';
 interface IProps {
   title: string;
 }
@@ -10,6 +11,7 @@ interface IProps {
 export const TabHeader = (props: IProps) => {
     const {title} = props;
     const insets = useSafeAreaInsets();
+    const navigation = useNavigation()
     const {colors} = useAppTheme()
     return (
       <View style={[styles.container, { marginTop: insets.top }]}>
@@ -17,12 +19,14 @@ export const TabHeader = (props: IProps) => {
           {title}
         </Text>
         <View style={styles.control}>
-          <ToggleTheme/>
-          <View style={styles.icon}>
-            <Text style={{ color: colors.textWhite, textAlign: 'center' }}>
-              SF
-            </Text>
-          </View>
+          <ToggleTheme />
+          <Pressable onPress={() => navigation.navigate("Profile")}>
+            <View style={styles.icon}>
+              <Text style={{ color: colors.textWhite, textAlign: 'center' }}>
+                SF
+              </Text>
+            </View>
+          </Pressable>
         </View>
       </View>
     );
